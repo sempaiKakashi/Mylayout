@@ -1,0 +1,171 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+hr { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+.schoolName {
+	color: black;
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	padding: 0px 0px 0px 15px;
+	margin: 0;
+	font-size: 32px;
+	line-height: 80px;
+}
+#Name {
+	font-family: 'Indie Flower', cursive;
+	font-size: 48px;
+	font-weight: bold;
+}
+.navMenu a{
+	text-decoration: none;
+	color: #fafad2;
+	margin-right: 50px;
+	/* line-height: 40px; */
+}
+.navMenu a:hover{
+	color: gray;
+	transition: all 0.3s;
+}
+.header{
+	padding: 20px;
+	/* margin: 0 auto; */
+	background-color: brown;
+}
+.header:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.logo{
+	float: left;
+	margin-left: 20px;
+}
+.logo a{
+	text-decoration: none;
+}
+.navMenu{
+	margin-right: 100px;
+	float: right;
+	line-height: 80px;
+}
+.navMenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navMenu li{
+	display: inline;
+	font-weight: bold;
+	font-size: 20px;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	height: 750px;
+}
+.text{
+	text-align: center;
+	font-size: 24px;
+}
+.text h1{
+	font-size: 24px;
+}
+.subContent{
+	margin: 0 auto;
+	width: 900px;
+	max-height: 600px;
+}
+.vidContent{
+	padding: 20px 40px 40px 20px ;
+	float: left;
+}
+.textForVid{
+   padding: 20px;
+   /* font-size: 18px; */
+   text-align: justify;
+}
+.subContent:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.socialhub{
+	text-align: center;
+	background-color: lightgray;
+	padding: 10px;
+}
+.socialhub ul{
+	text-align: center;
+	list-style: none;
+	margin-right: -100px;
+
+}
+.socialhub li{
+	display: inline-block;
+	padding-right: 100px;
+}
+.socialhub a{
+	color: black;
+}
+.socialhub a:hover{
+	color: brown;
+	transition: all 0.3s ease;
+}
+.copyr{
+	font-size: 13px;
+}
+.footer{
+	position: relative;
+	padding: 30px;
+	background-color: #333333;
+	color: white;
+	/* position: fixed;
+	left: 0; bottom: 0; */
+	position: absolute;
+	width: 100%;
+}
+.alink{
+	color: brown;
+	font-weight: bold;
+}
+.alink:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.contacts{
+	float: left;
+	margin-left: 20px;
+}
+.pic{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.subContacts{
+	float: none;
+	margin: 50px 50px 10px 0px;
+}
